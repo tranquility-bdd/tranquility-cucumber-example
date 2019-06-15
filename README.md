@@ -8,4 +8,5 @@ an example of [tranquility](https://github.com/tranquility-bdd/tranquility) + cu
 
 1. clone the repo
 2. `$ go get github.com/DATA-DOG/godog`
+3. `$ go get github.com/tranquility-bdd/tranquility`
 3. `$ ~/go/bin/godog`
