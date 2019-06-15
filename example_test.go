@@ -18,7 +18,7 @@ func iSetParamAparamBAsAnd(arg1, arg2 string) error {
 
 func iMakeAnHttpRequestToGetPostmanecho() error {
 	var url = "https://postman-echo.com/get?foo1=" + paramA + "&foo2=" + paramB
-	var action = tranquility.Action{"GET", url, nil, nil, ""}
+	var action = tranquility.Action{Method: "GET", URL: url}
 	resp, err = action.Run()
 	return nil
 }
